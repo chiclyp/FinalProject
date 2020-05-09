@@ -2,7 +2,7 @@ package Atm;
 
 /**
  *
- * @author 15142
+ * @author Pauline Chicoye
  */
 public class ATM {
     
