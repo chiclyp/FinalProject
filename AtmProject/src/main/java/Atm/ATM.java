@@ -35,6 +35,17 @@ public class ATM {
             System.out.println("(1)Withdraw");
             System.out.println("(2)Deposit");
             System.out.println("(3)See Account Balance");
+            
+            switch(input){
+                case "1":
+                    break;
+                case "2":
+                    break;
+                case "3":
+                    System.out.println(details.toString());
+                    break;
+                    
+            }
         }
         
     }
