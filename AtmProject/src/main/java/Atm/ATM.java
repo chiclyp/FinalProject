@@ -20,7 +20,25 @@ public class ATM {
         System.out.println("Welcome back " + name + " What is your nip?");
         
         int nip = scan.nextInt();
+        String sentVal = "stop";
+        String input = "";
+        
+        while (nip != details.nip()){
+            System.out.println(details.falseNip());
+            nip = scan.nextInt();
+        }
+        if (nip == details.nip()){
+            System.out.println(details.correctNip());
+        }
+        while (!input.equalsIgnoreCase(sentVal)){
+            System.out.println("What do you want to do today?");
+            System.out.println("(1)Withdraw");
+            System.out.println("(2)Deposit");
+            System.out.println("(3)See Account Balance");
+        }
+        
     }
+      
     
 }
 
